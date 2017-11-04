@@ -1,0 +1,30 @@
+
+#-------------------------------------------------------------------------------
+#	Plugin Constants
+#-------------------------------------------------------------------------------
+
+# {$plugin.tx_t3petclinic_sitepackage.settings.host}
+
+plugin {
+	tx_t3petclinic_sitepackage {
+		url {
+			local = http://localhost/t3petclinic/
+			dev = http://t3petclinic.woehlke.org/
+			live = http://t3petclinic.woehlke.org/
+		}
+		view {
+			# cat=plugin.tx_t3petclinic_sitepackage/file; type=string; label=Path to template root (FE)
+			templateRootPath = EXT:t3petclinic_sitepackage/Resources/Private/Templates/
+			# cat=plugin.tx_t3petclinic_sitepackage/file; type=string; label=Path to templates for Content Elements (FE)
+			content. templateRootPath= EXT:t3petclinic_sitepackage/Resources/Private/Templates/Content/
+			# cat=plugin.tx_t3petclinic_sitepackage/file; type=string; label=Path to template partials (FE)
+			partialRootPath = EXT:t3petclinic_sitepackage/Resources/Private/Partials/
+			# cat=plugin.tx_t3petclinic_sitepackage/file; type=string; label=Path to template layouts (FE)
+			layoutRootPath = EXT:t3petclinic_sitepackage/Resources/Private/Layouts/
+		}
+		settings {
+			# cat=plugin.tx_t3petclinic_sitepackage/linke; type=string; label=Host (URL of local,test,live)
+			host = {$plugin.tx_t3petclinic_sitepackage.url.test}
+		}
+	}
+}

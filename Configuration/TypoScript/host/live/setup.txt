@@ -1,8 +1,8 @@
 config {
 	baseURL = http://t3petclinic.woehlke.org/
 	absRefPrefix = http://t3petclinic.woehlke.org/
-	compressCss = 0
-	compressJs = 0
-	concatenateCss = 0
-	concatenateJs = 0
+	compressCss = 1
+	compressJs = 1
+	concatenateCss = 1
+	concatenateJs = 1
 }

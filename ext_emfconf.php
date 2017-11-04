@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
     'version' => '0.0.1',
     'state' => 'stable',
     'uploadfolder' => true,
-    'createDirs' => 'uploads/tx_oekumene-tiergarten',
+    'createDirs' => 'uploads/tx_t3petclinic_sitepackage',
     'clearcacheonload' => true,
     'author' => 'Thomas Woehlke',
     'author_email' => 'thomas@woehlke.org',
@@ -35,9 +35,9 @@ $EM_CONF[$_EXTKEY] = array(
             /* TER-Extensions: */
             'gridelements' => '8.0.0-8.9.99',
             //'realurl' => '2.2.1-2.2.99',
-            'crawler' => '5.1.2-5.1.99',
-            'dyncss' => '0.7.9-0.8.99',
-            'dyncss_less' => '0.7.7-0.7.99',
+            'versatile_crawler' => '1.0.0-1.0.99',
+            'dyncss' => '0.8.2-0.8.99',
+            'dyncss_less' => '1.1.1-1.1.99',
             't3sbootstrap' => '4.0.4-4.0.99'
         ),
         'conflicts' => array(
@@ -49,11 +49,11 @@ $EM_CONF[$_EXTKEY] = array(
             /* wegen news */
             /* 'dd_googlesitemap' => '2.0.5-2.99.99', */
         ),
-    ),
+    ),/*
     'autoload' => array(
         'psr-4' => array(
             'ThomasWoehlke\\T3Petclinic\\' => 'Classes',
         ),
-    ),
+    ),*/
 );
 
