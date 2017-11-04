@@ -44,11 +44,11 @@ $EM_CONF[$_EXTKEY] = array(
             'fluidpages' => '0.0.0-99.99.99',
             'cooluri' => '0.0.0-99.99.99',
             'simulatestatic' => '0.0.0-99.99.99',
-        ),
+        ),/*
         'suggests' => array(
-            /* wegen news */
-            /* 'dd_googlesitemap' => '2.0.5-2.99.99', */
-        ),
+            / * wegen news * /
+            / * 'dd_googlesitemap' => '2.0.5-2.99.99', * /
+        )*/
     ),/*
     'autoload' => array(
         'psr-4' => array(
