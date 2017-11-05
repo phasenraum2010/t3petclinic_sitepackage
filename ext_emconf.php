@@ -1,7 +1,7 @@
 <?php
 
 /***************************************************************
- * Extension Manager/Repository config file for ext "oekumene_tiergarten".
+ * Extension Manager/Repository config file for ext "t3petclinic_sitepackage".
  * Auto generated 22-03-2017 06:43
  * Manual updates:
  * Only the data in the array - everything else is removed by next
